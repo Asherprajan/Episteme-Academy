@@ -10,8 +10,8 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Episteme Academy - Expert Education by Marzan Sir & Farha Maam",
-  description: "Providing specialized educational resources to help students excel in Maharashtra board examinations.",
-    generator: 'v0.dev'
+  description: "Providing specialized educational resources to help students excel in South Mumbai board examinations.",
+  generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -20,8 +20,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${inter.className} bg-background text-foreground`}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           <div className="relative flex min-h-screen flex-col">
             <Header />

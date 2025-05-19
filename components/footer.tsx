@@ -18,7 +18,7 @@ export default function Footer() {
             </div>
           </div>
           <p className="text-sm text-gray-500 mt-2">
-            Empowering Maharashtra's students with expert education resources since 2010.
+            Empowering South Mumbai's students with expert education resources since 2010.
           </p>
         </div>
         <div>

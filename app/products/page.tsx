@@ -52,7 +52,7 @@ export default function ProductsPage() {
                       <p className="text-sm text-amber-500">STD XII</p>
                     </div>
                     <p className="text-sm text-gray-500 my-4 flex-1">
-                      A comprehensive mathematics textbook covering the entire Maharashtra State Board syllabus.
+                      A comprehensive mathematics textbook covering the entire South Mumbai Board syllabus.
                       Includes solved examples, practice problems, and exam tips.
                     </p>
                     <div className="flex items-center justify-between">
@@ -240,7 +240,7 @@ export default function ProductsPage() {
                       <p className="text-sm text-amber-500">STD XII</p>
                     </div>
                     <p className="text-sm text-gray-500 my-4 flex-1">
-                      A comprehensive mathematics textbook covering the entire Maharashtra State Board syllabus.
+                      A comprehensive mathematics textbook covering the entire South Mumbai Board syllabus.
                       Includes solved examples, practice problems, and exam tips.
                     </p>
                     <div className="flex items-center justify-between">

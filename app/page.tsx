@@ -5,22 +5,24 @@ import { ChevronRight, BookOpen, VideoIcon, FileText, ArrowRight } from "lucide-
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col">
+    <main className="flex min-h-screen flex-col items-center justify-between p-4 sm:p-6 md:p-12 lg:p-16">
       {/* Hero Section */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-b from-amber-50 to-white">
+      <section className="w-full py-8 md:py-12 lg:py-16 bg-gray-100 dark:bg-gray-800">
         <div className="container px-4 md:px-6">
-          <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
-            <div className="space-y-4">
-              <div className="inline-block rounded-lg bg-amber-100 px-3 py-1 text-sm text-amber-800">
-                Maharashtra's Premier Education Academy
+          <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:grid-cols-2">
+            <div className="flex flex-col justify-center space-y-4">
+              <div className="space-y-2">
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl xl:text-5xl/none">
+                  South Mumbai's Premier Education Academy
+                </h1>
+                <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
+                  Empowering South Mumbai's Brightest Minds
+                </p>
               </div>
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
-                Empowering Maharashtra's Brightest Minds
-              </h1>
-              <p className="max-w-[600px] text-gray-500 md:text-xl">
+              <div className="inline-block rounded-lg bg-amber-100 px-3 py-1 text-sm text-amber-800">
                 Specialized educational resources by expert educators Marzan Sir and Farha Ma'am to help students excel
                 in their board examinations.
-              </p>
+              </div>
               <div className="flex flex-col gap-2 sm:flex-row">
                 <Button className="bg-amber-500 hover:bg-amber-600 text-white">
                   Explore Products <ChevronRight className="ml-2 h-4 w-4" />
@@ -30,11 +32,12 @@ export default function Home() {
                 </Button>
               </div>
             </div>
-            <div className="mx-auto lg:mx-0 relative w-full max-w-[500px] aspect-[4/3] rounded-lg overflow-hidden shadow-xl">
+            <div className="mx-auto lg:mx-0 relative w-full max-w-[500px] aspect-square rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="/log.png"
                 alt="Episteme Academy students"
-                fill
+                width={500}
+                height={500}
                 className="object-cover"
                 priority
               />
@@ -44,7 +47,7 @@ export default function Home() {
       </section>
 
       {/* Meet the Educators */}
-      <section className="w-full py-12 md:py-24 bg-white">
+      <section className="w-full py-8 md:py-12 bg-white">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
@@ -113,7 +116,7 @@ export default function Home() {
       </section>
 
       {/* Featured Products */}
-      <section className="w-full py-12 md:py-24 bg-amber-50">
+      <section className="w-full py-8 md:py-12 bg-amber-50">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
@@ -201,7 +204,7 @@ export default function Home() {
       </section>
 
       {/* Success Stories Preview */}
-      <section className="w-full py-12 md:py-24 bg-white">
+      <section className="w-full py-8 md:py-12 bg-white">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
@@ -251,7 +254,7 @@ export default function Home() {
       </section>
 
       {/* Call to Action */}
-      <section className="w-full py-12 md:py-24 bg-amber-500 text-white">
+      <section className="w-full py-8 md:py-12 bg-amber-500 text-white">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">

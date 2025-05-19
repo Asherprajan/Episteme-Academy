@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 export default function AboutPage() {
   return (
     <main className="flex min-h-screen flex-col">
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-b from-amber-50 to-white">
+      <section className="w-full py-8 md:py-12 lg:py-16 bg-gradient-to-b from-amber-50 to-white">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
@@ -19,7 +19,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="w-full py-12 md:py-24 bg-white">
+      <section className="w-full py-8 md:py-12 bg-white">
         <div className="container px-4 md:px-6">
           <div className="grid gap-10 lg:grid-cols-2 lg:gap-24 items-center">
             <div className="relative aspect-square overflow-hidden rounded-xl">
@@ -30,7 +30,7 @@ export default function AboutPage() {
               <p className="text-gray-500">
                 Episteme Academy was founded in 2010 with a singular vision: to provide quality education that makes a
                 difference in students' academic journeys. What began as a small tutoring center has grown into a
-                trusted educational institution that has helped thousands of students across Maharashtra achieve their
+                trusted educational institution that has helped thousands of students across South Mumbai achieve their
                 academic goals.
               </p>
               <p className="text-gray-500">
@@ -62,9 +62,9 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="w-full py-12 md:py-24 bg-amber-50">
+      <section className="w-full py-8 md:py-12 bg-amber-50">
         <div className="container px-4 md:px-6">
-          <div className="flex flex-col items-center justify-center space-y-4 text-center mb-10">
+          <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Meet Our Educators</h2>
               <p className="max-w-[700px] text-gray-500 md:text-xl/relaxed mx-auto">
@@ -152,7 +152,7 @@ export default function AboutPage() {
                   </p>
                   <p>
                     As the creator of the "Science Simplified" series of notes and study materials, Farha Ma'am has
-                    developed resources that are used by students throughout Maharashtra for exam preparation.
+                    developed resources that are used by students throughout South Mumbai for exam preparation.
                   </p>
                 </div>
                 <div className="grid grid-cols-2 gap-4 pt-4">
@@ -179,9 +179,9 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="w-full py-12 md:py-24 bg-white">
+      <section className="w-full py-8 md:py-12 bg-white">
         <div className="container px-4 md:px-6">
-          <div className="flex flex-col items-center justify-center space-y-4 text-center mb-10">
+          <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Our Values & Mission</h2>
               <p className="max-w-[700px] text-gray-500 md:text-xl/relaxed mx-auto">
@@ -229,7 +229,7 @@ export default function AboutPage() {
             <div className="space-y-4 text-center">
               <h3 className="text-2xl font-bold">Our Mission</h3>
               <p className="text-gray-600 max-w-3xl mx-auto">
-                To empower students across Maharashtra with accessible, high-quality educational resources that build
+                To empower students across South Mumbai with accessible, high-quality educational resources that build
                 confidence, inspire curiosity, and lead to academic success. We aim to make complex subjects
                 approachable, develop critical thinking skills, and prepare students not just for examinations but for
                 lifelong learning.

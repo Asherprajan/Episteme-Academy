@@ -13,16 +13,8 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-white">
       <div className="container flex h-16 items-center px-4 sm:px-6">
-        <Link href="/" className="flex items-center gap-2">
-          <div className="relative h-8 w-8 sm:h-10 sm:w-32">
-            <Image
-              src="/placeholder.svg?height=40&width=120"
-              alt="Episteme Academy Logo"
-              fill
-              className="object-contain"
-            />
-          </div>
-          <span className="text-lg font-bold sm:hidden">Episteme</span>
+        <Link href="/" className="flex items-center">
+          <span className="text-lg font-bold">EPISTEME ACADEMY</span>
         </Link>
         <nav className="ml-auto hidden md:flex gap-6">
           <Link href="/" className="text-sm font-medium transition-colors hover:text-amber-500">

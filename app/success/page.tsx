@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function SuccessPage() {
   return (
     <main className="flex min-h-screen flex-col">
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-b from-amber-50 to-white">
+      <section className="w-full py-8 md:py-12 lg:py-16 bg-gradient-to-b from-amber-50 to-white">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
@@ -17,9 +17,9 @@ export default function SuccessPage() {
         </div>
       </section>
 
-      <section className="w-full py-12 md:py-24 bg-white">
+      <section className="w-full py-8 md:py-12 bg-white">
         <div className="container px-4 md:px-6">
-          <div className="flex flex-col items-center justify-center space-y-4 text-center mb-10">
+          <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Top Performers</h2>
               <p className="max-w-[700px] text-gray-500 md:text-xl/relaxed mx-auto">
@@ -39,7 +39,7 @@ export default function SuccessPage() {
               </div>
               <div className="flex flex-col p-6">
                 <div className="space-y-1">
-                  <h3 className="font-bold text-xl">Aditya Sharma</h3>
+                  <h3 className="font-bold text-xl">Mohammed Ahmed</h3>
                   <p className="text-sm text-amber-500">STD XII - 2023 Batch</p>
                 </div>
                 <div className="flex items-center gap-1 my-2">
@@ -78,7 +78,7 @@ export default function SuccessPage() {
               </div>
               <div className="flex flex-col p-6">
                 <div className="space-y-1">
-                  <h3 className="font-bold text-xl">Priya Desai</h3>
+                  <h3 className="font-bold text-xl">Zara Khan</h3>
                   <p className="text-sm text-amber-500">STD XII - 2023 Batch</p>
                 </div>
                 <div className="flex items-center gap-1 my-2">
@@ -149,9 +149,9 @@ export default function SuccessPage() {
         </div>
       </section>
 
-      <section className="w-full py-12 md:py-24 bg-amber-50">
+      <section className="w-full py-8 md:py-12 bg-amber-50">
         <div className="container px-4 md:px-6">
-          <div className="flex flex-col items-center justify-center space-y-4 text-center mb-10">
+          <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Academic Performance</h2>
               <p className="max-w-[700px] text-gray-500 md:text-xl/relaxed mx-auto">
@@ -188,9 +188,9 @@ export default function SuccessPage() {
         </div>
       </section>
 
-      <section className="w-full py-12 md:py-24 bg-white">
+      <section className="w-full py-8 md:py-12 bg-white">
         <div className="container px-4 md:px-6">
-          <div className="flex flex-col items-center justify-center space-y-4 text-center mb-10">
+          <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Testimonials</h2>
               <p className="max-w-[700px] text-gray-500 md:text-xl/relaxed mx-auto">
@@ -213,7 +213,7 @@ export default function SuccessPage() {
                   />
                 </div>
                 <div>
-                  <h3 className="font-medium">Sneha Jadhav</h3>
+                  <h3 className="font-medium">Imran Shaikh</h3>
                   <p className="text-sm text-gray-500">STD XII Student - 2022 Batch</p>
                 </div>
               </div>
@@ -242,7 +242,7 @@ export default function SuccessPage() {
                   />
                 </div>
                 <div>
-                  <h3 className="font-medium">Kiran Patil</h3>
+                  <h3 className="font-medium">Fatima Ansari</h3>
                   <p className="text-sm text-gray-500">STD X Student - 2023 Batch</p>
                 </div>
               </div>
@@ -270,7 +270,7 @@ export default function SuccessPage() {
                   />
                 </div>
                 <div>
-                  <h3 className="font-medium">Suresh Sharma</h3>
+                  <h3 className="font-medium">Rahul Sharma</h3>
                   <p className="text-sm text-gray-500">Parent</p>
                 </div>
               </div>
@@ -299,7 +299,7 @@ export default function SuccessPage() {
                   />
                 </div>
                 <div>
-                  <h3 className="font-medium">Amit Kumar</h3>
+                  <h3 className="font-medium">Amir Hassan</h3>
                   <p className="text-sm text-gray-500">STD XII Student - 2023 Batch</p>
                 </div>
               </div>
@@ -330,7 +330,7 @@ export default function SuccessPage() {
                   />
                 </div>
                 <div>
-                  <h3 className="font-medium">Priya Joshi</h3>
+                  <h3 className="font-medium">Sana Qureshi</h3>
                   <p className="text-sm text-gray-500">Parent</p>
                 </div>
               </div>
@@ -358,7 +358,7 @@ export default function SuccessPage() {
                   />
                 </div>
                 <div>
-                  <h3 className="font-medium">Neha Kulkarni</h3>
+                  <h3 className="font-medium">Priya Patel</h3>
                   <p className="text-sm text-gray-500">STD X Student - 2022 Batch</p>
                 </div>
               </div>
