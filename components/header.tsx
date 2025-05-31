@@ -33,9 +33,7 @@ export default function Header() {
             Contact
           </Link>
         </nav>
-        <Button variant="outline" className="ml-4 hidden md:flex border-amber-500 text-amber-500 hover:bg-amber-50">
-          Get Started
-        </Button>
+       
         <Button variant="ghost" size="icon" className="ml-auto md:hidden" onClick={() => setIsMenuOpen(true)}>
           <Menu className="h-6 w-6" />
           <span className="sr-only">Toggle menu</span>
@@ -79,7 +77,7 @@ export default function Header() {
                 className="w-full bg-amber-500 hover:bg-amber-600 text-white"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Get Started
+              
               </Button>
             </nav>
           </div>

@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ChevronRight, BookOpen, VideoIcon, FileText, ArrowRight } from "lucide-react"
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 
 export default function Home() {
   return (
@@ -63,7 +64,7 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="overflow-hidden rounded-lg">
                   <Image
-                    src="/placeholder.svg?height=400&width=400"
+                    src="/marzansir.png"
                     alt="Marzan Sir"
                     width={400}
                     height={400}
@@ -90,7 +91,7 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="overflow-hidden rounded-lg">
                   <Image
-                    src="/placeholder.svg?height=400&width=400"
+                    src="/farha.png"
                     alt="Farha Ma'am"
                     width={400}
                     height={400}
@@ -215,29 +216,34 @@ export default function Home() {
             </div>
           </div>
           <div className="mx-auto grid max-w-5xl gap-6 py-12 md:grid-cols-3">
-            {[1, 2, 3].map((i) => (
+            {[
+              { name: "Aisha Khan", subject: "Mathematics", score: 95, image: "/aisha.png" },
+              { name: "Omar Ahmed", subject: "Physics", score: 92, image: "/omar.png" },
+              { name: "Zainab Ali", subject: "Chemistry", score: 94, image: "/zainab.png" }
+            ].map((student, i) => (
               <div key={i} className="flex flex-col rounded-lg border bg-white shadow-sm p-6">
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="rounded-full bg-amber-100 p-2">
-                    <Image
-                      src="/placeholder.svg?height=60&width=60"
-                      alt={`Student ${i}`}
-                      width={60}
-                      height={60}
-                      className="rounded-full"
+                  <Avatar className="h-14 w-14">
+                    <AvatarImage 
+                      src={student.image} 
+                      alt={`${student.name} profile`} 
+                      className="object-cover"
                     />
-                  </div>
+                    <AvatarFallback className="bg-amber-100 text-amber-600">
+                      {student.name.split(' ').map(n => n[0]).join('')}
+                    </AvatarFallback>
+                  </Avatar>
                   <div>
-                    <h3 className="font-medium">Student Name</h3>
+                    <h3 className="font-medium">{student.name}</h3>
                     <p className="text-sm text-gray-500">STD XII - 2023 Batch</p>
                   </div>
                 </div>
                 <p className="text-sm text-gray-600 flex-grow">
-                  "Thanks to Episteme Academy and the guidance of Marzan Sir, I scored 95% in Mathematics. The teaching
-                  methodology and study materials were incredibly helpful."
+                  "Thanks to Episteme Academy and the guidance of Marzan Sir, I scored {student.score}% in {student.subject}. 
+                  The teaching methodology and study materials were incredibly helpful."
                 </p>
                 <div className="mt-4 flex items-center gap-1 text-amber-500 font-medium">
-                  <span>Mathematics: 95%</span>
+                  <span>{student.subject}: {student.score}%</span>
                 </div>
               </div>
             ))}

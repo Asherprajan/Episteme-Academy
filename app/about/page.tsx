@@ -23,7 +23,7 @@ export default function AboutPage() {
         <div className="container px-4 md:px-6">
           <div className="grid gap-10 lg:grid-cols-2 lg:gap-24 items-center">
             <div className="relative aspect-square overflow-hidden rounded-xl">
-              <Image src="/placeholder.svg?height=600&width=600" alt="Episteme Academy" fill className="object-cover" />
+              <Image src="/log.png" alt="Episteme Academy" fill className="object-cover" />
             </div>
             <div className="space-y-6">
               <h2 className="text-3xl font-bold">Our Story</h2>
@@ -76,12 +76,13 @@ export default function AboutPage() {
           <div className="grid gap-10 md:grid-cols-2 lg:gap-24 items-start">
             {/* Marzan Sir */}
             <div className="space-y-8">
-              <div className="overflow-hidden rounded-xl">
+              <div className="overflow-hidden rounded-[10px]">
                 <Image
-                  src="/placeholder.svg?height=600&width=600"
+                  src="/marzansir.png"
                   alt="Marzan Sir"
                   width={600}
                   height={600}
+                  style={{ borderRadius: "10px" }}
                   className="aspect-square object-cover"
                 />
               </div>
@@ -129,7 +130,7 @@ export default function AboutPage() {
             <div className="space-y-8">
               <div className="overflow-hidden rounded-xl">
                 <Image
-                  src="/placeholder.svg?height=600&width=600"
+                  src="/farha.png"
                   alt="Farha Ma'am"
                   width={600}
                   height={600}

@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="flex items-center gap-2">
             <div className="relative h-8 w-8 sm:h-10 sm:w-32">
               <Image
-                src="/placeholder.svg?height=40&width=120"
+                src="/log.png"
                 alt="Episteme Academy Logo"
                 fill
                 className="object-contain"
@@ -18,7 +18,7 @@ export default function Footer() {
             </div>
           </div>
           <p className="text-sm text-gray-500 mt-2">
-            Empowering South Mumbai's students with expert education resources since 2010.
+            Empowering South Mumbai's students with expert education resources since 2014.
           </p>
         </div>
         <div>

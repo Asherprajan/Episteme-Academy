@@ -1,5 +1,6 @@
 import { Medal, Star } from "lucide-react"
 import Image from "next/image"
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 
 export default function SuccessPage() {
   return (
@@ -203,15 +204,16 @@ export default function SuccessPage() {
             {/* Testimonial 1 */}
             <div className="flex flex-col rounded-lg border p-6 shadow-sm">
               <div className="flex items-center gap-4 mb-4">
-                <div className="rounded-full bg-amber-100 p-2">
-                  <Image
-                    src="/placeholder.svg?height=60&width=60"
-                    alt="Student 4"
-                    width={60}
-                    height={60}
-                    className="rounded-full"
+                <Avatar className="h-16 w-16">
+                  <AvatarImage 
+                    src="/placeholder-user.jpg" 
+                    alt="Imran Shaikh" 
+                    className="object-cover"
                   />
-                </div>
+                  <AvatarFallback className="bg-amber-100 text-amber-600 text-sm">
+                    IS
+                  </AvatarFallback>
+                </Avatar>
                 <div>
                   <h3 className="font-medium">Imran Shaikh</h3>
                   <p className="text-sm text-gray-500">STD XII Student - 2022 Batch</p>
@@ -232,15 +234,16 @@ export default function SuccessPage() {
             {/* Testimonial 2 */}
             <div className="flex flex-col rounded-lg border p-6 shadow-sm">
               <div className="flex items-center gap-4 mb-4">
-                <div className="rounded-full bg-amber-100 p-2">
-                  <Image
-                    src="/placeholder.svg?height=60&width=60"
-                    alt="Student 5"
-                    width={60}
-                    height={60}
-                    className="rounded-full"
+                <Avatar className="h-16 w-16">
+                  <AvatarImage 
+                    src="/placeholder-user.jpg" 
+                    alt="Fatima Ansari" 
+                    className="object-cover"
                   />
-                </div>
+                  <AvatarFallback className="bg-amber-100 text-amber-600 text-sm">
+                    FA
+                  </AvatarFallback>
+                </Avatar>
                 <div>
                   <h3 className="font-medium">Fatima Ansari</h3>
                   <p className="text-sm text-gray-500">STD X Student - 2023 Batch</p>
@@ -260,15 +263,16 @@ export default function SuccessPage() {
             {/* Testimonial 3 */}
             <div className="flex flex-col rounded-lg border p-6 shadow-sm">
               <div className="flex items-center gap-4 mb-4">
-                <div className="rounded-full bg-amber-100 p-2">
-                  <Image
-                    src="/placeholder.svg?height=60&width=60"
-                    alt="Parent 1"
-                    width={60}
-                    height={60}
-                    className="rounded-full"
+                <Avatar className="h-16 w-16">
+                  <AvatarImage 
+                    src="/placeholder-user.jpg" 
+                    alt="Rahul Sharma" 
+                    className="object-cover"
                   />
-                </div>
+                  <AvatarFallback className="bg-amber-100 text-amber-600 text-sm">
+                    RS
+                  </AvatarFallback>
+                </Avatar>
                 <div>
                   <h3 className="font-medium">Rahul Sharma</h3>
                   <p className="text-sm text-gray-500">Parent</p>
@@ -289,15 +293,16 @@ export default function SuccessPage() {
             {/* Testimonial 4 */}
             <div className="flex flex-col rounded-lg border p-6 shadow-sm">
               <div className="flex items-center gap-4 mb-4">
-                <div className="rounded-full bg-amber-100 p-2">
-                  <Image
-                    src="/placeholder.svg?height=60&width=60"
-                    alt="Student 6"
-                    width={60}
-                    height={60}
-                    className="rounded-full"
+                <Avatar className="h-16 w-16">
+                  <AvatarImage 
+                    src="/placeholder-user.jpg" 
+                    alt="Amir Hassan" 
+                    className="object-cover"
                   />
-                </div>
+                  <AvatarFallback className="bg-amber-100 text-amber-600 text-sm">
+                    AH
+                  </AvatarFallback>
+                </Avatar>
                 <div>
                   <h3 className="font-medium">Amir Hassan</h3>
                   <p className="text-sm text-gray-500">STD XII Student - 2023 Batch</p>
@@ -320,15 +325,16 @@ export default function SuccessPage() {
             {/* Testimonial 5 */}
             <div className="flex flex-col rounded-lg border p-6 shadow-sm">
               <div className="flex items-center gap-4 mb-4">
-                <div className="rounded-full bg-amber-100 p-2">
-                  <Image
-                    src="/placeholder.svg?height=60&width=60"
-                    alt="Parent 2"
-                    width={60}
-                    height={60}
-                    className="rounded-full"
+                <Avatar className="h-16 w-16">
+                  <AvatarImage 
+                    src="/placeholder-user.jpg" 
+                    alt="Sana Qureshi" 
+                    className="object-cover"
                   />
-                </div>
+                  <AvatarFallback className="bg-amber-100 text-amber-600 text-sm">
+                    SQ
+                  </AvatarFallback>
+                </Avatar>
                 <div>
                   <h3 className="font-medium">Sana Qureshi</h3>
                   <p className="text-sm text-gray-500">Parent</p>
@@ -348,15 +354,16 @@ export default function SuccessPage() {
             {/* Testimonial 6 */}
             <div className="flex flex-col rounded-lg border p-6 shadow-sm">
               <div className="flex items-center gap-4 mb-4">
-                <div className="rounded-full bg-amber-100 p-2">
-                  <Image
-                    src="/placeholder.svg?height=60&width=60"
-                    alt="Student 7"
-                    width={60}
-                    height={60}
-                    className="rounded-full"
+                <Avatar className="h-16 w-16">
+                  <AvatarImage 
+                    src="/placeholder-user.jpg" 
+                    alt="Priya Patel" 
+                    className="object-cover"
                   />
-                </div>
+                  <AvatarFallback className="bg-amber-100 text-amber-600 text-sm">
+                    PP
+                  </AvatarFallback>
+                </Avatar>
                 <div>
                   <h3 className="font-medium">Priya Patel</h3>
                   <p className="text-sm text-gray-500">STD X Student - 2022 Batch</p>

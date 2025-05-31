@@ -49,11 +49,11 @@ export default function ProductsPage() {
                   <div className="flex flex-col flex-1 p-6">
                     <div className="space-y-1">
                       <h3 className="font-bold text-xl">Mathematics Book</h3>
-                      <p className="text-sm text-amber-500">STD XII</p>
+                      <p className="text-sm text-amber-500">STD VIII - X</p>
                     </div>
                     <p className="text-sm text-gray-500 my-4 flex-1">
-                      A comprehensive mathematics textbook covering the entire South Mumbai Board syllabus.
-                      Includes solved examples, practice problems, and exam tips.
+                      A comprehensive mathematics textbook covering essential concepts for high school students.
+                      Includes solved examples and practice problems to strengthen foundational math skills.
                     </p>
                     <div className="flex items-center justify-between">
                       <span className="font-bold">₹450</span>
@@ -81,8 +81,7 @@ export default function ProductsPage() {
                       <p className="text-sm text-amber-500">STD XII</p>
                     </div>
                     <p className="text-sm text-gray-500 my-4 flex-1">
-                      Condensed and effective notes covering all important concepts, formulas, and solved numerical
-                      problems for Physics.
+                      Condensed and effective notes covering all important concepts and formulas for Physics.
                     </p>
                     <div className="flex items-center justify-between">
                       <span className="font-bold">₹250</span>
@@ -418,7 +417,7 @@ export default function ProductsPage() {
         </div>
       </section>
 
-      <section className="w-full py-12 md:py-24 bg-amber-50">
+      {/* <section className="w-full py-12 md:py-24 bg-amber-50">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
@@ -431,7 +430,7 @@ export default function ProductsPage() {
             <Button className="bg-amber-500 hover:bg-amber-600 text-white">Contact for Bulk Orders</Button>
           </div>
         </div>
-      </section>
+      </section> */}
     </main>
   )
 }
