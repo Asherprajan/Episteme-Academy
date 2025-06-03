@@ -59,26 +59,26 @@ export default function Footer() {
           <h3 className="text-lg font-medium mb-4">Contact Us</h3>
           <nav className="flex flex-col gap-3">
             <Link
-              href="mailto:contact@epistemeacademy.com"
+              href="mailto:marzan@epistemeacademy.in"
               className="flex items-center gap-2 text-sm hover:text-amber-500"
             >
               <Mail className="h-4 w-4" />
-              contact@epistemeacademy.com
+              marzan@epistemeacademy.in
             </Link>
             <Link href="tel:+919876543210" className="flex items-center gap-2 text-sm hover:text-amber-500">
               <Phone className="h-4 w-4" />
-              +91 98765 43210
+              +91 98212 05491
             </Link>
             <div className="flex gap-4 mt-2">
-              <Link href="#" className="text-gray-500 hover:text-amber-500">
+              {/* <Link href="#" className="text-gray-500 hover:text-amber-500">
                 <Facebook className="h-5 w-5" />
                 <span className="sr-only">Facebook</span>
-              </Link>
-              <Link href="#" className="text-gray-500 hover:text-amber-500">
+              </Link> */}
+              <Link href="https://www.instagram.com/epistemeacademy/" className="text-gray-500 hover:text-amber-500">
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
               </Link>
-              <Link href="#" className="text-gray-500 hover:text-amber-500">
+              <Link href="https://youtube.com/@epistemeacademy?si=gbKsY1VTyjvd1GJa" className="text-gray-500 hover:text-amber-500">
                 <Youtube className="h-5 w-5" />
                 <span className="sr-only">YouTube</span>
               </Link>
